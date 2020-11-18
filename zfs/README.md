@@ -26,7 +26,7 @@ tank/zle      964M  1.63G      964M  /tank/zle
 ```
 Отсюда следует, что самым лучшим алгоритмом является gzip-9, дальше идут lz4, lzjb, zle. 
 
-#2. Определить настройки pool’a
+# 2. Определить настройки pool’a
 ```
 [root@localhost ~]# ./gdown.pl  https://drive.google.com/file/d/1KRBNW33QWqbvbVHa3hLJivOAt60yukkg/view
 Cannot open cookies file ‘gdown.cookie.temp’: No such file or directory
@@ -86,7 +86,7 @@ errors: No known data errors
 Отсюда мы заключаем, что типом пула является mirror-0, размер хранилища - 480 МБайт, значение recorsize - 128 КБайт, контрольная сумма - SHA-256, используется сжатие zle, значение
 recordsize - 128 КБайт. 
 
-#3. Найти сообщение от преподавателей
+# 3. Найти сообщение от преподавателей
 ```
 [root@localhost ~]# ./gdown.pl https://drive.google.com/file/d/1gH8gCL9y7Nd5Ti3IRmplZPF1XjzxeRAG/view?usp=sharing
 Cannot open cookies file ‘gdown.cookie.temp’: No such file or directory
